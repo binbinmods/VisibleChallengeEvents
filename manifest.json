@@ -1,0 +1,7 @@
+{
+  "name": "Visible_Challenge_Events",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/binbinmods/VisibleChallengeEvents",
+  "description": "A mod that makes Event names in Obelisk Challenge Mode visible.",
+  "dependencies": ["BepInEx-BepInExPack_AcrossTheObelisk-5.4.23"]
+}
