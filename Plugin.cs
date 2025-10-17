@@ -80,7 +80,10 @@ namespace VisibleChallengeEvents
             PluginGUID = PluginInfo.PLUGIN_GUID;
             if (EnableMod.Value)
             {
-                EssentialsCompatibility.ObeliskialEssentialsRegister();
+                if (EssentialsCompatibility.Enabled)
+                    EssentialsCompatibility.EssentialsRegister();
+                else
+                    LogInfo($"{PluginGUID} {PluginVersion} has loaded!");
                 harmony.PatchAll();
             }
         }

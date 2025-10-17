@@ -20,6 +20,7 @@ public static class EssentialsCompatibility
     {
         // Register with Obeliskial Essentials
         // EssentialsInstalled = Chainloader.PluginInfos.ContainsKey("com.stiffmeds.obeliskialessentials");
+
         RegisterMod(
             _name: PluginName,
             _author: "binbin",
@@ -29,5 +30,7 @@ public static class EssentialsCompatibility
             _link: @"https://github.com/binbinmods/VisibleChallengeEvents"
         );
         LogInfo($"{PluginGUID} {PluginVersion} has loaded with Essentials!");
+
+
     }
 }
